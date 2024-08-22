@@ -37,7 +37,7 @@ public class BankAccount
     public void GetBalance()
     {
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"Current Balance: {_balance}");
+        Console.WriteLine($"Current Balance: ${_balance}");
         Console.ForegroundColor = ConsoleColor.Yellow;
     }
 }
